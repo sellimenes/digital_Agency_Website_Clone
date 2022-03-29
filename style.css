@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+/* Header Başlangıç */
+.header-bg {
+  height: 48px;
+  background-color: #f1bc0f;
+}
+
+.ust-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.header-contact {
+  display: flex;
+  column-gap: 24px;
+}
+
+.header-contact p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.header-contact p i {
+  font-size: 12px;
+  padding-right: 12px;
+}
+
+.social-icons {
+  display: flex;
+  column-gap: 24px;
+}
+
+.social-icons i {
+  font-size: 14px;
+}
+
+.header-2 {
+  height: 85px;
+  background-color: #fff;
+}
+
+.header-2-inner {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  align-items: center;
+}
+
+.iletisim {
+  display: flex;
+  column-gap: 56px;
+}
+
+.iletisim-1 {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.iletisim-1 i {
+  background-color: #222426;
+  color: white;
+  border-radius: 50%;
+  font-size: 15px;
+  padding: 14px;
+}
+
+.iletisim-1 p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+nav {
+  height: 56px;
+  background-color: #222426;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 18px;
+  transition: all 0.4s ease;
+}
+
+ul li:hover,
+.active {
+  color: black;
+  background-color: #f1bc0f;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Header Bitiş */
+
+/* Slider Başlangıç */
+section .slider {
+  height: 575px;
+  width: 100%;
+}
+/* Slider Bitiş */
+
+/* Hizmetlerimiz Başlangıç */
+.hizmetlerimiz {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  width: 90%;
+  margin: auto;
+}
+
+.hizmetlerimiz h3 {
+  color: #f1bc0f;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.row {
+  display: flex;
+  column-gap: 70px;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  column-gap: 15px;
+}
+
+.inner-element h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inner-element p {
+  font-size: 14px;
+  font-weight: 300;
+}
+/* Hizmetlerimiz Bİtiş */
+
+/* Neden Biz Başlangıç */
+.neden-biz {
+  width: 100%;
+  background-color: #222426;
+}
+
+.inner-neden-biz {
+  display: flex;
+  padding: 75px 0;
+  align-items: center;
+}
+
+.sol-taraf {
+  width: 40%;
+  color: white;
+}
+
+.sol-taraf span {
+  color: #f1bc0f;
+}
+
+.sol-taraf h3 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+}
+
+.sol-taraf p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.sag-taraf {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  column-gap: 10px;
+  row-gap: 15px;
+  margin-left: 50px;
+  justify-content: center;
+}
+
+.card {
+  height: 160px;
+  width: 280px;
+  background-color: #f1bc0f;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #222426;
+  box-shadow: rgba(0, 0, 0, 0.616) 1.95px 1.95px 2.6px;
+  transition: transform 0.8s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card i {
+  margin-bottom: 20px;
+}
+
+.card h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inner-card {
+  text-align: center;
+}
+/* Neden Biz Bitiş */
+
+/* Referanslarımız Başlangıç */
+.referanslarimiz {
+  background-color: #f4f4f4;
+  height: 400px;
+}
+
+.inner-referanslarimiz h2 {
+  color: #222426;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 54px;
+}
+
+.referanslar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  background-color: #f1bc0f;
+  width: 240px;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+  box-shadow: 0 7px 10px 6px rgb(0 0 0 / 8%);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.link:hover {
+  transform: scale(1.08);
+}
+
+.link i,
+.link p {
+  color: white;
+}
+/* Referanslarımız Bitiş */
+
+/* Blog Başlangıç */
+.guncel-haberler div h2 {
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.guncel-haberler-p {
+  font-size: 14px;
+  color: #808080;
+  text-align: center;
+  padding: 0 200px;
+}
+
+.blog-cards {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.blog-card {
+  width: 31%;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgb(97 105 140 / 10%);
+  margin: 10px;
+  margin-bottom: 50px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-img img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.blog-content {
+  padding: 10px 15px;
+}
+
+.blog-meta a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #222426;
+}
+
+.blog-meta span {
+  color: #f1bc0f;
+  font-size: 14px;
+}
+
+.blog-content h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 700;
+  color: #333;
+  line-height: 25px;
+}
+
+.blog-ozet {
+  font-size: 14px;
+  color: #808080;
+  padding-bottom: 25px;
+}
+/* Blog Bitiş */
+
+/* Aramıza Katıl Başlangıç */
+.aramiza-katil {
+  background-color: #f1bc0f;
+}
+
+.aramiza-katil-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+}
+
+.aramiza-katil-sol {
+  width: 60%;
+}
+
+.aramiza-katil-sol h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.aramiza-katil-sol p {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 5px;
+  color: #fff;
+  line-height: 26px;
+}
+
+.aramiza-katil-sag {
+  width: 40%;
+  text-align: center;
+}
+
+.aramiza-katil-sag input {
+  background-color: #fff;
+  border: 3px #fff solid;
+  padding: 15px;
+  border-radius: 25px;
+  width: 300px;
+}
+
+.aramiza-katil-sag input:focus {
+  outline: none;
+}
+
+.aramiza-katil-sag button {
+  background-color: transparent;
+  color: #fff;
+  padding: 15px;
+  border: 3px dashed #fff;
+  border-radius: 25px;
+  margin-top: 10px;
+  width: 300px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.aramiza-katil-sag button:hover {
+  background-color: #222426;
+  border: 3px solid #222426;
+}
+/* Aramıza Katıl Bitiş */
+
+/* Footer Başlangıç */
+footer {
+  height: 400px;
+  background-color: #222426;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  column-gap: 10px;
+}
+
+.footer-section {
+  width: 25%;
+  height: 100px;
+  background-color: #f1bc0f;
+}
+/* Footer Bitiş */

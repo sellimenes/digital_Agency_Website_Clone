@@ -1,0 +1,38 @@
+@media (max-width: 1666px) {
+  .container {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1540px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1430px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1335px) {
+  .container {
+    width: 80%;
+  }
+  section .slider {
+    height: 475px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1177px) {
+  .container {
+    width: 90%;
+  }
+}
